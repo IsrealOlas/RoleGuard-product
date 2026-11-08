@@ -1,0 +1,73 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RoleGuard — Client-Side Cloud Security & IAM Linter</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { background-color: #0f172a; color: #f8fafc; font-family: system-ui, -apple-system, sans-serif; }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between">
+
+  <!-- Header / Navigation -->
+  <header class="border-b border-slate-800 py-4 px-6 flex justify-between items-center max-w-6xl mx-auto w-full">
+    <div class="flex items-center space-x-2">
+      <span class="text-2xl">🛡️</span>
+      <span class="font-bold text-xl tracking-tight text-white">RoleGuard</span>
+    </div>
+    <a href="https://your-gumroad-store-link.gumroad.com" target="_blank" class="bg-indigo-600 hover:bg-indigo-500 text-white px-4 py-2 rounded-lg font-medium text-sm transition">Get Pro ($39)</a>
+  </header>
+
+  <!-- Hero Section -->
+  <main class="max-w-4xl mx-auto text-center px-6 py-20 flex-1">
+    <div class="inline-block bg-indigo-950/80 text-indigo-400 border border-indigo-800/50 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider mb-6">
+      100% Offline & Private Security Linter
+    </div>
+    
+    <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight mb-6 text-white leading-tight">
+      Audit Cloud Policies Without <br class="hidden sm:inline"/> Leaking Private Data
+    </h1>
+    
+    <p class="text-slate-400 text-lg sm:text-xl mb-10 max-w-2xl mx-auto">
+      Detect dangerous AWS IAM privilege escalation paths in JSON, Terraform, and CloudFormation—executed entirely in local browser memory.
+    </p>
+
+    <div class="flex flex-col sm:flex-row justify-center gap-4 mb-16">
+      <a href="https://your-gumroad-store-link.gumroad.com" target="_blank" class="bg-indigo-600 hover:bg-indigo-500 text-white px-8 py-4 rounded-xl font-bold text-lg shadow-lg shadow-indigo-600/30 transition">
+        Buy RoleGuard Pro — $39
+      </a>
+      <a href="https://github.com/YOUR-USERNAME/roleguard" target="_blank" class="bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 px-8 py-4 rounded-xl font-bold text-lg transition">
+        View on GitHub
+      </a>
+    </div>
+
+    <!-- Value Props Grid -->
+    <div class="grid md:grid-cols-3 gap-6 text-left mt-12">
+      <div class="bg-slate-900 border border-slate-800 p-6 rounded-xl">
+        <div class="text-2xl mb-3">🔒</div>
+        <h3 class="font-bold text-lg text-white mb-2">Zero-Footprint Privacy</h3>
+        <p class="text-slate-400 text-sm">Your infrastructure files never hit an external database or SaaS backend. Zero network risk.</p>
+      </div>
+      <div class="bg-slate-900 border border-slate-800 p-6 rounded-xl">
+        <div class="text-2xl mb-3">⚡</div>
+        <h3 class="font-bold text-lg text-white mb-2">Multi-Format Parsing</h3>
+        <p class="text-slate-400 text-sm">Parses raw AWS IAM JSON policies alongside Terraform (.tf) and CloudFormation (.yaml) resources.</p>
+      </div>
+      <div class="bg-slate-900 border border-slate-800 p-6 rounded-xl">
+        <div class="text-2xl mb-3">🛠️</div>
+        <h3 class="font-bold text-lg text-white mb-2">One-Click Remediation</h3>
+        <p class="text-slate-400 text-sm">Instantly generates secure IAM code snippets to replace identified vulnerabilities and exports JSON reports.</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-800 py-6 text-center text-xs text-slate-500">
+    <p>© 2026 RoleGuard. All rights reserved. Zero-Trust Offline Utility.</p>
+  </footer>
+
+</body>
+</html>
