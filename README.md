@@ -29,7 +29,7 @@ Cloud security audits often present a **Privacy & Latency Paradox**: traditional
 | **Client-Side JSON Audit Exporter** | ❌ | ✅ |
 | **Full Single-File Offline Bundle (`RoleGuard.html`)** | ❌ | ✅ |
 
-👉 **[Upgrade to RoleGuard Pro for Complete Protection](https://your-gumroad-store-link.gumroad.com)**
+👉 **[Upgrade to RoleGuard Pro for Complete Protection](https://leviquest662.gumroad.com/l/roleguard-pro)**
 
 ---
 
